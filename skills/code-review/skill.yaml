@@ -1,0 +1,23 @@
+id: code-review
+name: Code Review
+version: 0.1.0
+summary: Walk a diff or PR, find bugs, security risks and style issues, and return notes with concrete fixes.
+category: coding
+authors:
+  - name: Motyga
+    url: https://motyga.com
+license: Apache-2.0
+attribution:
+  inspired_by:
+    - { name: NVIDIA Skills, url: https://build.nvidia.com/skills, note: "inspiration only; no copied content" }
+compatibility:
+  agents: [motyga-code, openai-compatible]
+  models: [any]
+files:
+  entrypoint: SKILL.md
+  examples: examples/
+permissions:
+  filesystem: read
+  shell: none
+  network: none
+tags: [coding, review, quality]
